@@ -19,6 +19,8 @@ public class Movie {
     private Integer movieId;
 
     private String title;
+
+    @Enumerated(EnumType.STRING)
     private Genre genre;
 
     @Min(value = 0, message ="Minimum value should be 0")

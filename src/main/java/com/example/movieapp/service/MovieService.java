@@ -17,7 +17,6 @@ public class MovieService {
 
 
     public void addMovie(Movie movie){
-        System.out.println("movie..."+movie);
         movieRepository.save(movie);
     }
 
